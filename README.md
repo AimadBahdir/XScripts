@@ -12,7 +12,7 @@
 <br/>
 This is a collection of small scripts that I've developed to automate various tasks or just for fun. I've found these scripts to be quite useful in my own work, and I thought it would be helpful to share them with others who might also find them valuable.
 
-Some of the scripts you'll find here include [FedoraSetup](linux/Fedora/), [DarkReader](web/DarkReader), [RaceBreaker](web/TYPERACERX) and [XFiverr](web/XFiverr). I'll be adding more scripts to this repository over time, so be sure to check back regularly!
+Some of the scripts you'll find here include [FedoraSetup](linux/Fedora/), [DarkReader](web/DarkReader), [RaceBreaker](web/TYPERACERX), [XFiverr](web/XFiverr) and [xGitDraw](web/XGitDraw). I'll be adding more scripts to this repository over time, so be sure to check back regularly!
 
 If you find any of these scripts helpful, please feel free to use them in your own work. And if you have any suggestions for how I can improve these scripts, I'd love to hear them!
 <br/>
