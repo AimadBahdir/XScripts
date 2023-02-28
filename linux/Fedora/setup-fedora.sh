@@ -86,6 +86,7 @@ END
         echo ">>> Installing Docker...";
         dnf remove docker docker-client docker-client-latest docker-common docker-latest docker-latest-logrotate docker-logrotate docker-selinux docker-engine-selinux docker-engine > /dev/null 2>&1;
         dnf -y install dnf-plugins-core > /dev/null 2>&1;
+        dnf config-manager --add-repo https://download.docker.com/linux/fedora/docker-ce.repo
         dnf -y install docker-ce docker-ce-cli containerd.io docker-compose-plugin > /dev/null 2>&1;
         systemctl enable docker.service > /dev/null 2>&1;;
     esac
