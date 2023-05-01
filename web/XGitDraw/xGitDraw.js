@@ -15,12 +15,13 @@ if ( window.location.pathname.split("/").length === 2 ) {
     let cmdbtn = document.createElement("button");
 
     cmdbtn.setAttribute("id", "ccmd");
+    cmdbtn.setAttribute("class", "float-left");
     cmdbtn.innerText = "copy command";
     cmdbtn.addEventListener("click", (e) => {
         navigator.clipboard.writeText(`xgit -l "${Object.values(selectedDates).filter(e => e.dates.length > 0).map(e => e.dates.join()).join()}"`);
         e.target.innerText = "command copied";
     });
-    document.querySelector(".js-calendar-graph-svg + div").children[0].prepend(cmdbtn);
+    document.querySelectorAll(".js-calendar-graph > div")[1].prepend(cmdbtn);
 
     const getCntrLevel = (cntrlvl) => {
         const cntrbs = Object.values(selectedDates).map(e => e.level);
@@ -30,7 +31,7 @@ if ( window.location.pathname.split("/").length === 2 ) {
 
     document.querySelector(".svg-tip").remove();
     const updateCalendar = (setEvents = false) => Array.from(
-        document.querySelectorAll(".js-calendar-graph-svg > g > g > rect"))
+        document.querySelectorAll("td.ContributionCalendar-day"))
         .forEach((e, k) => {
             let data = e.textContent.split(" ")[0];
             if (e.getAttribute("data-value") === null)
