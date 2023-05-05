@@ -5,7 +5,7 @@ XScripts - WEB where I share my collection of simple, fun scripts that automate 
 ## Usage
 
 1) Install the [Requestly](https://requestly.io/) browser extension, which is available for all popular browsers.
-2) Import our script rules [here](https://bit.ly/rxs_i). <p align="center" ><br/><a href="#webxscripts"><img src="./assets/importscripts.webp" alt="Import Rules" width="700" /></a><br/></p>
+2) Import our script rules [here](https://bit.ly/rxs_ii). <p align="center" ><br/><a href="#webxscripts"><img src="./assets/importscripts.webp" alt="Import Rules" width="700" /></a><br/></p>
 3) Once you've imported the rules, you can enable or disable individual rules as needed from the Requestly extension popup.<p align="center"><br/><a href="#webxscripts"><img src="./assets/managescripts.webp" alt="Manage rules" width="500" /></a><br/></p>
 4) Simply navigate to the targeted website(s) and the scripts will automatically run in the background, based on the enabled rules.
 
